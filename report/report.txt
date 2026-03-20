@@ -1,0 +1,17 @@
+ATTENDX PRO - PROJECT REPORT
+
+1. Problem Statement
+Conventional manual attendance systems are prone to human error and fail to provide students with real-time feedback on exam eligibility. AttendX Pro solves this by implementing a digital log where attendance is tied to unique student IDs with automated threshold alerts.
+
+2. OOP Concepts Demonstrated
+- Abstraction: User is an abstract class
+- Inheritance: Student and Faculty extend User
+- Encapsulation: Private fields with controlled access
+- Polymorphism: Overridden getRole() and displayInfo() methods
+- Exception Handling: DuplicateEntryException, LowAttendanceWarning
+- Collections: HashMap for O(1) student lookup
+- Threads: NotificationThread runs in background
+
+3. How to Run
+javac src/Main.java
+java -cp src Main
